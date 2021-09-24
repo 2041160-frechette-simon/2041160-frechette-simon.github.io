@@ -36,6 +36,10 @@ body {
 .wrapper {
     width: 80%;
 }
+#flexbox>.container-fluid .wrapper
+{
+    
+}
 
 .back-to-top {
     float: right !important;
@@ -175,6 +179,7 @@ fieldset[disabled] .btn-primary.active {
     border-radius: 0;
     font-size: 18px;
     padding: 15px 40px;
+
 }
 
 .btn-xl:hover,
@@ -184,7 +189,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
     color: #fff;
     background-color: #48AAF1;
-    border-color: #48AAF1;
+    border-color: red;
 }
 
 .btn-xl:active,
@@ -246,7 +251,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-brand {
     float: left;
-    width: 165px;
+    width: 50px;
     height: 50px;
     padding: 0px !important;
 }
@@ -271,7 +276,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    background-color: #058BCE;
+    background-color: red;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -280,7 +285,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #48AAF1;
+    background-color: red;
 }
 
 .nav > li > a {
@@ -296,7 +301,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-    color: #058BCE;
+    color: red;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -308,7 +313,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #058BCE;
+    background-color: red;
 }
 
 .navbar-right {
@@ -656,7 +661,7 @@ section#about {
 }
 
 
-/* 6.0 ========   SERVICES   ====*/
+/* 6.0 ========   EXERCICE PRÉSENTATION   ====*/
 
 section {
     padding: 40px 0
@@ -687,7 +692,7 @@ section h2.section-heading {
     margin-top: 0;
     text-align: center;
     text-transform: uppercase !important;
-    color: #058BCE;
+    color: red;
     
 }
 
@@ -700,7 +705,7 @@ section h3.section-subheading {
     font-weight: 400;
     margin-bottom: 47px;
     margin-top: 20px !important;
-    color: #222222;
+    color: white;
 }
 
 .text-services {
@@ -765,14 +770,15 @@ section h3.section-subheading {
 }
 
 
-/* 7.0 ====== TEAM  =============*/
+/* 7.0 ====== ÉXERCICE FLEXBOX  =============*/
 
 
 /* Team members images are set within the HTML using inline CSS, not here */
 
-section#team {
-    background-color: #FEFEFE;
-    padding-bottom: 0px !important;
+section#flexbox {
+    background-color: black;
+    padding-bottom: auto !important;
+    margin-bottom: 0px;
 }
 
 .carousel {
@@ -896,7 +902,7 @@ section#team {
 }
 
 .carousel-inner {
-    margin: 0 auto;
+    margin: 0;
 }
 
 .team-member img {
@@ -1000,10 +1006,10 @@ section#team {
 }
 
 
-/* 8.0 ==========   PORTFOLIO   ============*/
+/* 8.0 ==========   PRÉSENTATION   ============*/
 
-section#portfolio {
-    background-color: #ececec;
+section#présentation {
+    background-color: black;
     padding-bottom: 110px;
 }
 
@@ -1649,14 +1655,10 @@ margin-top: 20px;
     position: absolute;
 }
 footer {
-    padding: 53px 0px 30px 0px;
+    padding: 10px 10px 30px 10px;
     background-color: #0A0A0A;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 0;
     position: relative !important;
-    bottom: 0px;
+    bottom: 10px;
     width: 100%;
 }
 .footer-info {

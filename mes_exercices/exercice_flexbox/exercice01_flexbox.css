@@ -1,0 +1,130 @@
+
+
+
+#mainContainer
+{
+
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: grey;
+
+    
+
+
+}
+
+
+#xLeft
+{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    flex-grow: 1;
+    align-items: stretch;
+    
+    
+
+}
+
+#xRight
+{
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    flex-grow: 5;
+    
+    
+
+
+
+}
+
+
+
+
+#navWin
+{
+    flex-grow: 1;
+}
+
+#entete
+{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    
+
+}
+#middleContent 
+{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 6;
+
+}
+
+#pied
+{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header
+{
+    background-color: green;
+    flex-grow: 1;
+
+}
+nav
+{
+    background-color: palegoldenrod;
+
+}
+article
+{
+    background-color: ivory;
+    flex-grow: 2;
+}
+aside
+{
+    background-color: ivory;
+    flex-grow: 1;
+}
+footer
+{
+    background-color: green;
+    flex-grow: 1;
+}
+.item
+{
+    border-radius: 5px;
+    border-color: black;
+    border-style: groove;
+}
